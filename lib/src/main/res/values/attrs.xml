@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="color_picker">
+        <!-- 背景圆的半径 -->
+        <attr name="circle_radius" format="dimension"/>
+        <!-- 可滑动小球的半径 -->
+        <attr name="center_radius" format="dimension"/>
+        <!-- 可滑动小球的颜色 -->
+        <attr name="center_color" format="color"/>
+        <!-- 圆环还是原型取色盘 -->
+        <attr name="is_ring" format="boolean"/>
+        <!-- 圆环的半径 -->
+        <attr name="ring_radius" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="rounded_image_view">
+        <!--是否是圆形，会覆盖圆角属性-->
+        <attr name="circle" format="boolean"/>
+        <!--圆角半径-->
+        <attr name="radius" format="dimension"/>
+        <!--border宽度-->
+        <attr name="border_width" format="dimension"/>
+        <!--border颜色-->
+        <attr name="border_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="FlexMenu">
+
+        <!-- Flexible rows,default -1,it will not flexible -->
+        <attr name="flexRows" format="integer"/>
+
+        <!-- Expandable rows, default -1,it will expand all lines left -->
+        <attr name="expandRows" format="integer"/>
+
+        <!-- Item columns -->
+        <attr name="columns" format="integer"/>
+
+        <!-- LinesHeight,reference itemView Height -->
+        <attr name="lineHeight" format="dimension"/>
+
+        <!-- Customized Item View For ViewHolder -->
+        <attr name="itemView" format="reference"/>
+
+        <!-- Section Title Whether Display -->
+        <attr name="showTitle" format="boolean"/>
+
+        <!-- Section Title -->
+        <attr name="title" format="string"/>
+
+        <!-- Flex Button Background ,it should be a selector item that contain "state_activated"-->
+        <attr name="flexIcon" format="reference"/>
+
+    </declare-styleable>
+
+</resources>
